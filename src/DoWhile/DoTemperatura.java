@@ -8,7 +8,7 @@ public class DoTemperatura {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        char resp;
+        char resp;//chamar a variável no escopo geral, para que seja associado um lavor e se possa verificar a condiçaõ fora do escopo
         do {
             System.out.println("Digite a temperatura em graus Celsius: ");
             double C = sc.nextDouble();
