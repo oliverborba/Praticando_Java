@@ -16,7 +16,7 @@ public class DoTemperatura {
             System.out.printf("Equivalente em Fahrenheit: %.1f%n", F);
             System.out.println("Deseja repedir (s/n)");
             resp = sc.next().charAt(0);
-        } while (resp != 'n'); //condição fica depois de executar os comandos e só apos isso a condição.
+        } while (resp != 'n'); //executa os comandos e só apos isso a condição.
         sc.close();
     }
 }
